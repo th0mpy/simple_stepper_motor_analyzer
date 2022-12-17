@@ -14,6 +14,9 @@ static const SensorSpec UNKNOWN_SENSOR("????", 2500, 0.4);
 // ACS70331EOLCTR-2P5B3
 static const SensorSpec GMR_2P5_SENSOR("G2P5A", 2500, 0.4);
 
+//TMCS1101A2BQDRQ1 CT
+static const SensorSpec TI_TMCS1101_SENSOR("TMCS1101", 3000, 0.1);
+
 // ACS712ELCTR-05B-T
 // We limit the range to 3A since this is the
 // most 3D printer use cases fall here.
@@ -59,6 +62,7 @@ static const SensorSpec* determine_sensor() {
     case STATE_DOWN:
       return &HAUL_5A_SENSOR;
     case STATE_UP:
+      return &TI_TMCS1101_SENSOR; //ct add
     default:
       return &UNKNOWN_SENSOR;
   }

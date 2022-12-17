@@ -87,8 +87,10 @@ static void init_pwm() {
   bl_pwm_channel = pwm_gpio_to_channel(TFT_BL_PIN);
   gpio_set_function(TFT_BL_PIN, GPIO_FUNC_PWM);
   pwm_set_wrap(bl_pwm_slice_num, 99);
+  //pwm_set_wrap(bl_pwm_slice_num, 25);
   // Reduce PWM freq to ~4.8Khz
   pwm_set_clkdiv_int_frac(bl_pwm_slice_num, 255, 0);
+  //pwm_set_clkdiv_int_frac(bl_pwm_slice_num, 1038, 0);
   // We start with BL off.
   pwm_set_chan_level(bl_pwm_slice_num, bl_pwm_channel, 0);
   pwm_set_enabled(bl_pwm_slice_num, true);

@@ -1,0 +1,22 @@
+### Module positions - created on Friday, October 08, 2021 at 09:05:27 PM ###
+### Printed by Pcbnew version kicad (5.1.10-1-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                            Package                                                 PosX       PosY       Rot  Side
+C1        0.1u                                           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder          88.0490    46.4680    0.0000  top
+C2        0.1u                                           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder          52.2260    46.8490    0.0000  top
+C3        10u                                            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder          44.0600    47.0000   90.0000  top
+C4        1nf                                            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder          84.2390    46.3320   90.0000  top
+C5        DNP                                            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder          47.9170    50.5320   90.0000  top
+FPC1      Connector_Conn_01x40_Female                    JUSHUO-AFC07-S40ECC-00_40P_05mm_flipped              51.3000    28.9000   90.0000  top
+FPC2      FPC_connector,_6_pins,_0.5mm,_BOTTOM_contacts  JUSHUO-AFC01-S06FCC-00_6p_05mm                       72.6800    35.9300   90.0000  top
+M1        Motor                                          null_footprint                                        3.0000     0.5000    0.0000  top
+Q1        AO3400A_                                       SOT-23                                               42.9640     8.6220   90.0000  top
+R1        8R2                                            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder          40.4240    13.4480   90.0000  top
+R2        8R2                                            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder          42.9640    13.4480   90.0000  top
+R3        8R2                                            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder          45.5040    13.4480   90.0000  top
+R4        DNP                                            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder          66.2685    10.4000   90.0000  top
+R5        DNP                                            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_no_3d    68.9355    10.4000   90.0000  top
+U1        (CURRENT_SENSOR)                               SOIC-8_3.9x4.9mm_P1.27mm                             87.1600    52.4350  270.0000  top
+U2        (CURRENT_SENSOR)                               SOIC-8_3.9x4.9mm_P1.27mm                             52.8700    52.4350  270.0000  top
+## End
